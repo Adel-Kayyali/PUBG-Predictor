@@ -48,7 +48,7 @@ def main():
     st.title('PUBG Predictor')
     st.sidebar.title('Enter the following details to predict your Placement:')
     
-    image_url = "https://wallpapercave.com/wp/wp2208679.jpg"
+    image_url = "https://wallpapercave.com/w/wp2474966"
     st.image(image_url, caption="", use_column_width=True)
 
     #options for the SelectBox
