@@ -4,9 +4,9 @@ import joblib
 from sklearn.preprocessing import StandardScaler
 
 # Load the model, scaler and other necessary files
-model = joblib.load(open('PUBG-Predictor/PUBG_model.sav','rb'))
-scaler = joblib.load(open('PUBG-Predictor/scaler.sav','rb'))
-columns = joblib.load(open('PUBG-Predictor/columns.sav','rb'))
+model = joblib.load(open('PUBG_model.sav','rb'))
+scaler = joblib.load(open('scaler.sav','rb'))
+columns = joblib.load(open('columns.sav','rb'))
 
 # Define the function to make predictions
 def predict(df):
