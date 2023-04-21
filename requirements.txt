@@ -3,4 +3,4 @@ numpy
 scikit-learn
 streamlit
 joblib
-python-3.7.16
+python-3.8
