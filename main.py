@@ -2,11 +2,12 @@ import streamlit as st
 import pandas as pd
 import joblib
 from sklearn.preprocessing import StandardScaler
+import pickle
 
 # Load the model, scaler and other necessary files
-model = joblib.load(open('PUBG-Predictor/PUBG_model.sav','rb'))
-scaler = joblib.load(open('PUBG-Predictor/scaler.sav','rb'))
-columns = joblib.load(open('PUBG-Predictor/columns.sav','rb'))
+model = pickle.load(open('PUBG-Predictor/PUBG_model.pkl', 'rb'))
+scaler = pickle.load(open('PUBG-Predictor/scaler.pkl', 'rb'))
+columns = pickle.load(open('PUBG-Predictor/columns.pkl', 'rb'))
 
 # Define the function to make predictions
 def predict(df):
