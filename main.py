@@ -79,6 +79,8 @@ def main():
 
     # Collect input from the user
     input_data = {
+        'selected_match_type': st.sidebar.selectbox('Choose the Match Type', options_match),
+        'selected_option': st.sidebar.selectbox('Choose the Number of Groups in your game', options)
         'DBNOs': st.sidebar.slider('Knock-Downs', 0, 100, 5),
         'headshotKills': st.sidebar.slider('Headshot Kills', 0, 100, 5),
         'killStreaks': st.sidebar.slider('Kill Streaks', 0, 100, 5),
@@ -87,10 +89,8 @@ def main():
         'totalItemsPicked': st.sidebar.slider('Total Items Picked', 0, 200, 5),
         'totalDamageByTeam': st.sidebar.slider('Total Damage By Your Team', 0, 10000, 100),
         'totalTeamBuffs': st.sidebar.slider('Total Heals & Boosts Your Team Used', 0, 100, 5),
-        'teamwork': st.sidebar.slider('Total Assists & Revives You did for the Team', 0, 100, 2),
-        'selected_match_type': st.sidebar.selectbox('Choose the Match Type', options_match),
-        'selected_option': st.sidebar.selectbox('Choose the Number of Groups in your game', options)
-    }
+        'teamwork': st.sidebar.slider('Total Assists & Revives You did for the Team', 0, 100, 2)
+        }
     
     # Set the values for matchType_solo and matchType_squad based on user input
     if input_data['selected_match_type'] == 'Solo':
