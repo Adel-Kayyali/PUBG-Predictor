@@ -80,7 +80,7 @@ def main():
     # Collect input from the user
     input_data = {
         'selected_match_type': st.sidebar.selectbox('Choose the Match Type', options_match),
-        'selected_option': st.sidebar.selectbox('Choose the Number of Groups in your game', options)
+        'selected_option': st.sidebar.selectbox('Choose the Number of Groups in your game', options),
         'DBNOs': st.sidebar.slider('Knock-Downs', 0, 100, 5),
         'headshotKills': st.sidebar.slider('Headshot Kills', 0, 100, 5),
         'killStreaks': st.sidebar.slider('Kill Streaks', 0, 100, 5),
