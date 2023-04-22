@@ -70,8 +70,8 @@ def main():
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
     
-    image_url = "https://wallpaperaccess.com/full/190978.jpg"
-    st.image(image_url, caption="", use_column_width=True)
+    #image_url = "https://wallpaperaccess.com/full/190978.jpg"
+    #st.image(image_url, caption="", use_column_width=True)
 
     #options for the SelectBox
     options = ['1-35 Groups', '36-66 Groups', '67-100 Groups']
