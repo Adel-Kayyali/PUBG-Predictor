@@ -79,10 +79,10 @@ def main():
 
     # Collect input from the user
     input_data = {
-        'DBNOs': st.sidebar.slider('Knock-Downs', 0, 50, 5),
-        'headshotKills': st.sidebar.slider('Headshot Kills', 0, 50, 5),
-        'killStreaks': st.sidebar.slider('Kill Streaks', 0, 50, 5),
-        'longestKill': st.sidebar.slider('Longest Distance Kill', 0, 2000, 50),
+        'DBNOs': st.sidebar.slider('Knock-Downs', 0, 100, 5),
+        'headshotKills': st.sidebar.slider('Headshot Kills', 0, 100, 5),
+        'killStreaks': st.sidebar.slider('Kill Streaks', 0, 100, 5),
+        'longestKill': st.sidebar.slider('Longest Distance Kill', 0, 5000, 50),
         'totalDistance': st.sidebar.slider('Total Distance Moved', 0, 30000, 200),
         'totalItemsPicked': st.sidebar.slider('Total Items Picked', 0, 200, 5),
         'totalDamageByTeam': st.sidebar.slider('Total Damage By Your Team', 0, 10000, 100),
