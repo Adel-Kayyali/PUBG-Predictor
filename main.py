@@ -65,7 +65,7 @@ def main():
 
     
     st.set_page_config(page_title="PUBG PLACEMENT PREDICTOR", page_icon=":video_game:", layout="wide")
-    st.title('PUBG Predictor')
+    st.title('PUBG PLACEMENT PREDICTOR')
     #st.sidebar.title('Enter the following details to predict your Placement:')
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
