@@ -66,7 +66,7 @@ def main():
     
     st.set_page_config(page_title="PUBG PLACEMENT PREDICTOR", page_icon=":video_game:", layout="wide")
     st.title('PUBG PLACEMENT PREDICTOR')
-    #st.sidebar.title('Enter the following details to predict your Placement:')
+    st.sidebar.title('Enter the following details to predict your Placement:')
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
     
@@ -123,7 +123,7 @@ def main():
     # Make the prediction and display the result
     result = predict(scaled_input_df)
     predicted_placement = convert_placement(result[0])
-    st.write('<h1>Your predicted Placement is:</h1>', unsafe_allow_html=True)
+    #st.write('<h1>Your predicted Placement is:</h1>', unsafe_allow_html=True)
     st.markdown(f"<h1 style='text-align: center; font-size: 100px;'>{predicted_placement}</h1>", unsafe_allow_html=True)
 
 
