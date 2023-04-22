@@ -62,7 +62,7 @@ def main():
     }
     
     [data-testid="manage-app-button"] {
-    display: none;
+    visibility: hidden;
     }
 
     </style>
