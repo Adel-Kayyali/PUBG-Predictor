@@ -60,6 +60,11 @@ def main():
     background-image: url("https://i.pinimg.com/564x/62/d3/f3/62d3f30fd9273728c51afbeb25515957.jpg");
     background-size: cover;
     }
+    
+    [data-testid="manage-app-button"] {
+    display: none;
+    }
+
     </style>
     """
 
