@@ -20,17 +20,8 @@ def convert_placement(prediction):
     """
     Convert the predicted placement from the model into a more understandable format.
     """
-    if prediction > 0.9:
-        return '1st'
-    elif prediction > 0.8:
-        return '2nd'
-    elif prediction > 0.7:
-        return '3rd'
-    elif prediction > 0.6:
-        return '4th'
-    elif prediction > 0.5:
-        return '5th'
-    elif prediction > 0.4:
+
+    if prediction > 0.4:
         return '1st-5th' 
     elif prediction > 0.3:
         return '6th-10th'
