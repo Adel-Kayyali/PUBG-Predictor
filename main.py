@@ -79,15 +79,15 @@ def main():
 
     # Collect input from the user
     input_data = {
-        'DBNOs': st.sidebar.slider('Knock-Downs', 0, 30, 5),
-        'headshotKills': st.sidebar.slider('Headshot Kills', 0, 30, 5),
-        'killStreaks': st.sidebar.slider('Kill Streaks', 0, 30, 5),
+        'DBNOs': st.sidebar.slider('Knock-Downs', 0, 50, 5),
+        'headshotKills': st.sidebar.slider('Headshot Kills', 0, 50, 5),
+        'killStreaks': st.sidebar.slider('Kill Streaks', 0, 50, 5),
         'longestKill': st.sidebar.slider('Longest Distance Kill', 0, 2000, 50),
-        'totalDistance': st.sidebar.slider('Total Distance Moved', 0, 25000, 200),
-        'totalItemsPicked': st.sidebar.slider('Total Items Picked', 0, 100, 5),
-        'totalDamageByTeam': st.sidebar.slider('Total Damage By Your Team', 0, 5000, 100),
+        'totalDistance': st.sidebar.slider('Total Distance Moved', 0, 30000, 200),
+        'totalItemsPicked': st.sidebar.slider('Total Items Picked', 0, 200, 5),
+        'totalDamageByTeam': st.sidebar.slider('Total Damage By Your Team', 0, 10000, 100),
         'totalTeamBuffs': st.sidebar.slider('Total Heals & Boosts Your Team Used', 0, 100, 5),
-        'teamwork': st.sidebar.slider('Total Assists & Revives You did for the Team', 0, 30, 2),
+        'teamwork': st.sidebar.slider('Total Assists & Revives You did for the Team', 0, 50, 2),
         'selected_match_type': st.sidebar.selectbox('Choose the Match Type', options_match),
         'selected_option': st.sidebar.selectbox('Choose the Number of Groups in your game', options)
     }
