@@ -44,9 +44,31 @@ def convert_placement(prediction):
 
 # Define the Streamlit app
 def main():
+    
+    page_bg_img="""
+    <style>
+    [data-testid="stAppViewContainer"]{
+    background-image: url("https://www.pixel4k.com/wp-content/uploads/2020/01/pubg-helmet-2019-w7-3840x2160-1-2048x1152.jpg.webp");
+    background-size:cover;
+    }
+
+    [data-testid="stToolbar"]{
+    right: 2rem;
+    }
+
+    [data-testid="stSidebar"]{
+    background-image: url("https://i.pinimg.com/564x/62/d3/f3/62d3f30fd9273728c51afbeb25515957.jpg");
+    background-size: cover;
+    }
+    </style>
+    """
+
+    
     st.set_page_config(page_title="PUBG Predictor", page_icon=":video_game:", layout="wide")
     st.title('PUBG Predictor')
     st.sidebar.title('Enter the following details to predict your Placement:')
+    st.markdown(page_bg_img, unsafe_allow_html=True)
+
     
     image_url = "https://wallpaperaccess.com/full/190978.jpg"
     st.image(image_url, caption="", use_column_width=True)
