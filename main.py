@@ -31,15 +31,15 @@ def convert_placement(prediction):
     elif prediction > 0.5:
         return '5th'
     elif prediction > 0.4:
-        return '6th-10th'
+        return '1st-5th' 
     elif prediction > 0.3:
-        return '11th-15th'
+        return '6th-10th'
     elif prediction > 0.2:
-        return '16th-20th'
+        return '11th-20th' 
     elif prediction > 0.1:
-        return '21st-25th'
+        return '21st-30th' 
     else:
-        return '26th-100th'
+        return '31th-100th'
 
 
 # Define the Streamlit app
