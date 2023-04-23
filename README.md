@@ -1,5 +1,5 @@
 # **PUBG-Predictor**
-This project is the first project by **Projection™** of IEE-CIS for projects in the **University of Jordan**.
+This project is the first project for me with **Projection™** of IEE-CIS for projects in the **University of Jordan**.
 
 It predicts your placement depending on some data you'll give.
 
