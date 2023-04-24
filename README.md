@@ -17,7 +17,7 @@ This project was created by Adel Kayyali. The machine learning model was built u
 ## **License**
 This project is licensed under the MIT License.
 
-
+---
 <img src="https://www.pixel4k.com/wp-content/uploads/2020/01/pubg-helmet-2019-w7-3840x2160-1-2048x1152.jpg.webp" alt="Paris" style="display: block;margin-left: auto;margin-right: auto;width: 100%;">
 
 Adel Kayyali©
