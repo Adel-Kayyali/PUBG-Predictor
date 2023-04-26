@@ -137,13 +137,13 @@ def main():
     linkedin_image = 'https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/linkedin-icon-18-256.png'
 
     with col1:
-        st.markdown(f"<div style='text-align: center;'><a href='{github_link}' target='_blank'><img src='{github_image}' width='100' style='filter: invert(1)'></a>", unsafe_allow_html=True)
+        st.markdown(f"<div style='text-align: center;'><a href='{github_link}' target='_blank'><img src='{github_image}' width='100'></a>", unsafe_allow_html=True)
 
     with col2:
-        st.markdown(f"<div style='text-align: center;'><a href='{linkedin_link}' target='_blank'><img src='{linkedin_image}' width='100' style='filter: invert(1)'></a>", unsafe_allow_html=True)
+        st.markdown(f"<div style='text-align: center;'><a href='{linkedin_link}' target='_blank'><img src='{linkedin_image}' width='100'></a>", unsafe_allow_html=True)
 
     with col3:
-        st.markdown(f"<div style='text-align: center;'><a href='mailto:adelkayyali@outlook.com' target='_blank'><img src='https://www.vhv.rs/dpng/d/406-4064141_email-logo-white-png-email-icon-light-blue.png' width='100' style='filter: invert(1)'></a>", unsafe_allow_html=True)
+        st.markdown(f"<div style='text-align: center;'><a href='mailto:adelkayyali@outlook.com' target='_blank'><img src='https://www.vhv.rs/dpng/d/406-4064141_email-logo-white-png-email-icon-light-blue.png' width='100'></a>", unsafe_allow_html=True)
 
 
     
