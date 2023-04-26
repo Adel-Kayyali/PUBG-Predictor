@@ -143,7 +143,7 @@ def main():
         st.markdown(f"<div style='text-align: center;'><a href='{linkedin_link}' target='_blank'><img src='{linkedin_image}' width='100'></a>", unsafe_allow_html=True)
 
     with col3:
-        st.markdown(f"<div style='text-align: center;'><a href='mailto:adelkayyali@outlook.com' target='_blank'><img src='https://www.vhv.rs/dpng/d/406-4064141_email-logo-white-png-email-icon-light-blue.png' width='100'></a>", unsafe_allow_html=True)
+        st.markdown(f"<div style='text-align: center;'><a href='mailto:adelkayyali@outlook.com' target='_blank'><img src='https://cdn.iconscout.com/icon/free/png-512/mail-808-475025.png?f=avif&w=256' width='100'></a>", unsafe_allow_html=True)
 
 
     
