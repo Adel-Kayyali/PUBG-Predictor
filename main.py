@@ -131,7 +131,7 @@ def main():
     col1, col2,col3 = st.columns(3)
 
     github_link = 'https://github.com/Adel-Kayyali/PUBG-Predictor'
-    github_image = 'https://www.iconsdb.com/icons/preview/white/github-11-xxl.png'
+    github_image = 'https://www.kindpng.com/picc/m/128-1280233_free-files-github-github-white-logo-png-transparent.png'
 
     linkedin_link = 'https://www.linkedin.com/in/adel-kayyali-96b884240/'
     linkedin_image = 'https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/linkedin-icon-18-256.png'
