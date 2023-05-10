@@ -128,31 +128,11 @@ def main():
     st.markdown('---')
 
     
-    github_logo = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-    linkedin_logo = "https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg"
-    email_logo = "https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/mail-512.png"
 
-    github_link = "https://github.com/your_username"
-    linkedin_link = "https://www.linkedin.com/in/your_username/"
-    email_link = "mailto:youremail@example.com"
-
-    col1, col2, col3 = st.beta_columns(3)
-
-    with col1:
-        st.markdown(f'<a href="{github_link}"><img src="{github_logo}" width="50"></a>', unsafe_allow_html=True)
-
-    with col2:
-        st.markdown(f'<a href="{linkedin_link}"><img src="{linkedin_logo}" width="50"></a>', unsafe_allow_html=True)
-
-    with col3:
-        st.markdown(f'<a href="{email_link}"><img src="{email_logo}" width="50"></a>', unsafe_allow_html=True)
-
-    
-'''
     col1, col2,col3 = st.columns(3)
 
     github_link = 'https://github.com/Adel-Kayyali/PUBG-Predictor'
-    github_image = 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
+    github_image = 'https://cdn.iconscout.com/icon/free/png-512/github-1521500-1288242.png?f=avif&w=256'
 
     linkedin_link = 'https://www.linkedin.com/in/adel-kayyali-96b884240/'
     linkedin_image = 'https://cdn.iconscout.com/icon/free/png-512/linkedin-1464529-1239440.png?f=avif&w=256'
@@ -166,7 +146,7 @@ def main():
 
     with col3:
         st.markdown(f"<div style='text-align: center;'><a href='mailto:adelkayyali@outlook.com' target='_blank'><img src='https://cdn.iconscout.com/icon/free/png-512/mail-808-475025.png?f=avif&w=256' width='100'></a>", unsafe_allow_html=True)
-'''
+
     
     
 # Run the app
